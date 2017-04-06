@@ -1,0 +1,50 @@
+# jemdoc: menu{MENUFILE}{index.html}, notime
+== Anirban Roychowdhury
+
+PhD student
+\n[http://cse.osu.edu Department of Computer Science and Engineering]
+\n[http://www.osu.edu The Ohio State University]
+\n395 Dreese Laboratories
+\n2015 Neil Avenue
+\nColumbus, OH 43210-1217
+\nE-mail: lastname \[DoT\] seven at osu \[dOt\] edu
+\n\n[cv.pdf My full cv.] (as of 04/2017)
+~~~
+{News}
+- (04/2017) Serving as PC member for CIKM 2017 and reviewer for NIPS 2017.
+- (02/2017) I will be joining Facebook as a Research Scientist after graduation!
+- (02/2017) I will be interning at IBM T. J. Watson Research Center (Yorktown Heights, NY) in summer 2017! 
+- (02/2017) Invited to review for ICML 2017.
+- (02/2017) Invited to the Facebook PhD ML Summit in Seattle.
+- (02/2017) Invited to the Amazon Graduate Research Symposium in Seattle.
+- (10/2016) Serving as PC member for AISTATS 2017, NIPS 2016 AABI workshop, and WWW 2017 (Web Mining & Content Analysis track).
+- (04/2016) Paper accepted at ICML 2016 in NYC!
+- (02/2016) I will be interning at Google in summer 2016!
+- (02/2016) Serving as reviewer for ICML 2016.
+- (08/2015) Serving as PC member for AISTATS 2016 and NIPS 2015 AABI workshop.
+- (03/2015) I will be interning at Adobe Research in summer 2015!
+~~~
+
+== About me
+
+I am a PhD student in the CSE department at Ohio State University (OSU), working on machine learning under the supervision of\n
+[http://cse.osu.edu/~srini Prof. Srinivasan Parthasarathy] at OSU and [http://people.bu.edu/bkulis Prof. Brian Kulis] at Boston University. I received my M.S. (by PhD candidacy)\n
+in December 2016 from OSU, and my bachelors in engineering from [http://www.jaduniv.edu.in Jadavpur University], India in 2010. I enjoyed awesome internships at\n
+[http://research.google.com Google] (summer 2016) and [http://research.adobe.com Adobe Research] (summer 2015). Prior to starting my PhD, I spent a couple of years in industry working as a\n
+software developer at [http://www.adobe.com Adobe Systems] in Noida, India from 2010 to 2012.
+
+== Research
+
+My research interests include 
+- Bayesian Nonparametrics  
+- Markov Chain Monte Carlo 
+- Hamiltonian Dynamics 
+- Manifold Optimization 
+- Deep Learning
+
+#=== Recent Papers
+#. A. Roychowdhury and S. Parthasarathy, "Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds",  In submission, 2017. [arxiv preprint]
+#. A. Roychowdhury, B. Kulis and S. Parthasarathy " Robust Monte Carlo Sampling with Riemannian Nos{{&eacute;}}-Poincar{{&eacute;}} Hamiltonian Dynamics ", In Proc. 33rd International Conference on Machine Learning (ICML), 2016. [http://jmlr.org/proceedings/papers/v48/roychowdhury16.html link]
+#. A. Roychowdhury and B. Kulis, "Gamma Processes, Stick-Breaking and Variational Inference", In Proc. 18th International Conference on Artificial Intelligence and Statistics (AISTATS), 2015. [https://arxiv.org/abs/1410.1068 arxiv preprint][http://www.jmlr.org/proceedings/papers/v38/roychowdhury15.html link]
+\n[publications.html All publications.]
+

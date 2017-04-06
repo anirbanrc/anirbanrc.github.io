@@ -1,0 +1,80 @@
+# jemdoc: menu{MENUFILE}{research.html}, notime
+== Research
+
+- *Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds*
+\nA. Roychowdhury and S. Parthasarathy
+\nIn submission, February 2017. [arxiv preprint]
+~~~
+{Abstract}
+We propose L-BFGS and trust-region algorithms on Riemann manifolds that use stochastic variance\n
+reduction techniques to speed up convergence. For the stochastic L-BFGS algorithm we analyze and\n
+prove linear convergence rates for geodesically convex problems on the manifold, without resorting\n
+to linesearch methods designed to satisfy Wolfe conditions on the step size. To the best of our\n
+knowledge our trust-region method with stochastic variance reduction techniques is the first of\n
+its kind in the literature. We conduct experiments on Karcher mean computation for positive definite\n
+matrices and computation of leading eigenvectors for both synthetic and real data matrices, and\n
+demonstrate notably better performance than recently-proposed first-order stochastic optimization\n
+methods on Riemann manifolds, as well as standard trust-region manifold optimization techniques.
+~~~
+
+- *Robust Monte Carlo Sampling with Riemannian Nos{{&eacute;}}-Poincar{{&eacute;}} Hamiltonian Dynamics*
+\nA. Roychowdhury, B. Kulis and S. Parthasarathy
+\nIn Proc. 33rd International Conference on Machine Learning (ICML), 2016. [http://jmlr.org/proceedings/papers/v48/roychowdhury16.pdf pdf] [http://jmlr.org/proceedings/papers/v48/roychowdhury16-supp.pdf supp] [icml16.bib bibtex] [http://techtalks.tv/talks/robust-monte-carlo-sampling-using-riemannian-nose-poincare-hamiltonian-dynamics/62622/ talk]
+~~~
+{Abstract}
+We present a Monte Carlo sampler using a modified Nosé-Poincaré Hamiltonian along with Riemannian\n
+preconditioning. Hamiltonian Monte Carlo samplers allow better exploration of the state space as\n
+opposed to random walk-based methods, but, from a molecular dynamics perspective, may not necessarily\n
+provide samples from the canonical ensemble. Nosé-Hoover samplers rectify that shortcoming, but the\n
+resultant dynamics are not Hamiltonian. Furthermore, usage of these algorithms on large real-life\n
+datasets necessitates the use of stochastic gradients, which acts as another potentially destabilizing\n
+source of noise. In this work, we propose dynamics based on a modified Nosé-Poincaré Hamiltonian\n
+augmented with Riemannian manifold corrections. The resultant symplectic sampling algorithm samples\n
+from the canonical ensemble while using structural cues from the Riemannian preconditioning matrices\n
+to efficiently traverse the parameter space. We also propose a stochastic variant using additional\n
+terms in the Hamiltonian to correct for the noise from the stochastic gradients. We show strong\n
+performance of our algorithms on synthetic datasets and high-dimensional Poisson factor analysis-based\n
+topic modeling scenarios.
+~~~
+
+- *Gamma Processes, Stick-Breaking and Variational Inference*
+\nA. Roychowdhury and B. Kulis
+\nIn Proc. 18th International Conference on Artificial Intelligence and Statistics (AISTATS), 2015. [http://arxiv.org/abs/1410.1068 arxiv] [aist15.bib bibtex]
+~~~
+{Abstract}
+While most Bayesian nonparametric models in machine learning have focused on the Dirichlet process,\n
+the beta process, or their variants, the gamma process has recently emerged as a useful nonparametric\n
+prior in its own right. Current inference schemes for models involving the gamma process are\n
+restricted to MCMC-based methods, which limits their scalability. In this paper, we present a\n
+variational inference framework for models involving gamma process priors. Our approach is based on a\n
+novel stick-breaking constructive definition of the gamma process. We prove correctness of this\n
+stick-breaking process by using the characterization of the gamma process as a completely random\n
+measure (CRM), and we explicitly derive the rate measure of our construction using Poisson process\n
+machinery. We also derive error bounds on the truncation of the infinite process required for\n
+variational inference, similar to the truncation analyses for other nonparametric models based on the\n
+Dirichlet and beta processes. Our representation is then used to derive a variational inference\n
+algorithm for a particular Bayesian nonparametric latent structure formulation known as the infinite\n
+Gamma-Poisson model, where the latent variables are drawn from a gamma process prior with Poisson\n
+likelihoods. Finally, we present results for our algorithms on nonnegative matrix factorization tasks\n
+on document corpora, and show that we compare favorably to both sampling-based techniques and\n
+variational approaches based on beta-Bernoulli priors.
+~~~
+
+- *Small-Variance Asymptotics for Hidden Markov Models*
+\nA. Roychowdhury, K. Jiang and B. Kulis
+\nIn Proc. 26th Advances in Neural Information Processing Systems (NIPS), 2013. [http://papers.nips.cc/paper/4913-small-variance-asymptotics-for-hidden-markov-models.pdf pdf] [http://papers.nips.cc/paper/4913-small-variance-asymptotics-for-hidden-markov-models-supplemental.zip supp] [http://papers.nips.cc/paper/4913-small-variance-asymptotics-for-hidden-markov-models/bibtex bibtex] [http://videolectures.net/machine_roychowdhury_markov_models/ talk]
+~~~
+{Abstract}
+Small-variance asymptotics provide an emerging technique for obtaining scalable combinatorial\n
+algorithms from rich probabilistic models. We present a small-variance asymptotic analysis of the\n
+Hidden Markov Model and its infinite-state Bayesian nonparametric extension. Starting with the\n
+standard HMM, we first derive a “hard” inference algorithm analogous to k-means that arises when\n
+particular variances in the model tend to zero. This analysis is then extended to the Bayesian\n
+nonparametric case, yielding a simple, scalable, and flexible algorithm for discrete-state sequence\n
+data with a non-fixed number of states. We also derive the corresponding combinatorial objective\n
+functions arising from our analysis, which involve a k-means-like term along with penalties based\n
+on state transitions and the number of states. A key property of such algorithms is that —\n
+particularly in the nonparametric setting — standard probabilistic inference algorithms lack\n
+scalability and are heavily dependent on good initialization. A number of results on synthetic and\n
+real data sets demonstrate the advantages of the proposed framework.
+~~~
