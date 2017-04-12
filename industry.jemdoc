@@ -1,1 +1,11 @@
 # jemdoc: menu{MENUFILE}{industry.html}, notime
+#
+== Internships
+
+- Software Engineering Intern, Google (Kirkland, WA, USA).\n As an intern in the Ads team, I wrote multi-head deep neural nets along with data extraction and post-processing pipelines for classification of large scale data. The pipeline stages were written in C\+\+, and I used Tensorflow with certain wrapper libraries (TF-Learn, TF-Serving) for the deep learning workflow.\n My mentor was Li He, and I also worked with [http://www.ics.uci.edu/~asuncion/ Arthur Asuncion], Alex Chen, and Zakaria Haque.
+
+- Data Scientist Intern, Adobe Research (San Jose, CA, USA).\n As an intern in the [https://research.adobe.com/about-the-labs/bigdata-experience-lab/ Big Data Experience] and Imagination Labs, I used deep learning techniques along  with multitask learning and stochastic subsampling for classification of highly imbalanced data. I implemented some custom mods to [http://caffe.berkeleyvision.org/ Caffe] for the neural net workflow, and used it in conjunction with some Python wrappers.\nMy mentors were [https://sites.google.com/site/buihhung/ Hung Bui] and [https://sites.google.com/site/trungbuistanford/ Trung Bui], and I also worked with [https://research.adobe.com/person/hailin-jin/ Hailin Jin].
+
+== Patents
+- Digital  Content  Interaction  Prediction  and  Training  that  Addresses  Imbalanced Classes.\nAnirban Roychowdhury, Hung Bui, Trung Bui, Hailin Jin. (Filed 1/2016)
+- Content Presentation Based on a Multi-Task Neural Network.\n Anirban Roychowdhury, Hung Bui, Trung Bui, Hailin Jin, John Kucera. (Filed 3/2016)
