@@ -6,15 +6,16 @@
 \nIn submission, February 2017. [http://arxiv.org/abs/1704.01700 arxiv preprint]
 ~~~
 {Abstract}
-We propose L-BFGS and trust-region algorithms on Riemann manifolds that use stochastic variance\n
-reduction techniques to speed up convergence. For the stochastic L-BFGS algorithm we analyze and\n
-prove linear convergence rates for geodesically convex problems on the manifold, without resorting\n
-to linesearch methods designed to satisfy Wolfe conditions on the step size. To the best of our\n
-knowledge our trust-region method with stochastic variance reduction techniques is the first of\n
-its kind in the literature. We conduct experiments on Karcher mean computation for positive definite\n
-matrices and computation of leading eigenvectors for both synthetic and real data matrices, and\n
-demonstrate notably better performance than recently-proposed first-order stochastic optimization\n
-methods on Riemann manifolds, as well as standard trust-region manifold optimization techniques.
+We propose an L-BFGS  optimization algorithm on Riemannian manifolds using minibatched stochastic\n
+variance reduction techniques for fast convergence with constant step sizes, without resorting to\n
+linesearch methods designed to satisfy Wolfe conditions. We provide a new convergence proof for\n
+strongly convex functions without using curvature conditions on the manifold, as well as a convergence\n
+discussion for nonconvex functions. We discuss a couple of ways to obtain the correction pairs used\n
+to calculate the product of the gradient with the inverse Hessian, and empirically demonstrate their\n
+use in synthetic experiments on computation of Karcher means for symmetric positive definite matrices\n
+and leading eigenvalues of large scale data matrices. We compare our method to VR-PCA for the latter\n
+experiment, along with Riemannian SVRG for both cases, and show strong convergence results for a range\n
+of datasets.
 ~~~
 
 - *Robust Monte Carlo Sampling with Riemannian Nos{{&eacute;}}-Poincar{{&eacute;}} Hamiltonian Dynamics*
