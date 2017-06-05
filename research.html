@@ -26,6 +26,29 @@
 <h1>Research</h1>
 </div>
 <ul>
+<li><p><b>Adaptive Bayesian Sampling with Monte Carlo EM</b>
+<br />A. Roychowdhury and S. Parthasarathy
+<br />In submission, May 2017.</p>
+</li>
+</ul>
+<div class="infoblock">
+<div class="blocktitle">Abstract</div>
+<div class="blockcontent">
+<p>We present a novel technique for learning the mass matrices in samplers obtained from discretized<br />
+dynamics that preserve some energy function. Existing adaptive samplers use Riemannian preconditioning<br />
+techniques, where the mass matrices are functions of the parameters being sampled. This leads to<br />
+significant complexities in the energy reformulations and resultant dynamics, often leading to implicit<br />
+systems of equations and requiring inversion of high-dimensional matrices in the leapfrog steps. Our<br />
+approach provides a simpler alternative, by using existing dynamics in the sampling step of a<br />
+Monte Carlo EM framework, and learning the mass matrices in the M step with a novel online technique.<br />
+We also propose a way to adaptively set the number of samples gathered in the E step, using sampling<br />
+error estimates from the leapfrog dynamics. Along with a novel stochastic sampler based on<br />
+Nos'{e}-Poincar'{e} dynamics, we use this framework with standard Hamiltonian Monte Carlo (HMC) as<br />
+well as newer stochastic algorithms such as SGHMC and SGNHT, and show strong performance on synthetic<br />
+and real high-dimensional sampling scenarios; we achieve sampling accuracies comparable to Riemannian<br />
+samplers while being significantly faster.</p>
+</div></div>
+<ul>
 <li><p><b>Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds</b>
 <br />A. Roychowdhury and S. Parthasarathy
 <br />In submission, February 2017. <a href="http://arxiv.org/abs/1704.01700">arxiv preprint</a></p>
@@ -118,7 +141,7 @@ real data sets demonstrate the advantages of the proposed framework.</p>
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-05-23, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-06-05, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

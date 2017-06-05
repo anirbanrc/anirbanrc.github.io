@@ -1,6 +1,26 @@
 # jemdoc: menu{MENUFILE}{research.html}, notime
 == Research
 
+- *Adaptive Bayesian Sampling with Monte Carlo EM*
+\nA. Roychowdhury and S. Parthasarathy
+\nIn submission, May 2017.
+~~~
+{Abstract}
+We present a novel technique for learning the mass matrices in samplers obtained from discretized\n
+dynamics that preserve some energy function. Existing adaptive samplers use Riemannian preconditioning\n
+techniques, where the mass matrices are functions of the parameters being sampled. This leads to\n
+significant complexities in the energy reformulations and resultant dynamics, often leading to implicit\n
+systems of equations and requiring inversion of high-dimensional matrices in the leapfrog steps. Our\n
+approach provides a simpler alternative, by using existing dynamics in the sampling step of a\n
+Monte Carlo EM framework, and learning the mass matrices in the M step with a novel online technique.\n
+We also propose a way to adaptively set the number of samples gathered in the E step, using sampling\n
+error estimates from the leapfrog dynamics. Along with a novel stochastic sampler based on\n
+Nos\'{e}-Poincar\'{e} dynamics, we use this framework with standard Hamiltonian Monte Carlo (HMC) as\n
+well as newer stochastic algorithms such as SGHMC and SGNHT, and show strong performance on synthetic\n
+and real high-dimensional sampling scenarios; we achieve sampling accuracies comparable to Riemannian\n
+samplers while being significantly faster.
+~~~
+
 - *Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds*
 \nA. Roychowdhury and S. Parthasarathy
 \nIn submission, February 2017. [http://arxiv.org/abs/1704.01700 arxiv preprint]
