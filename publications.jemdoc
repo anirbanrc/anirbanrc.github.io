@@ -2,7 +2,7 @@
 == Conference
 
 . A. Roychowdhury and S. Parthasarathy, "Adaptive Bayesian Sampling with Monte Carlo EM", Submitted, 2017.
-. A. Roychowdhury and S. Parthasarathy, "Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds", Submitted, 2017. [http://arxiv.org/abs/1704.01700 arxiv]
+. A. Roychowdhury and S. Parthasarathy, "Accelerated Stochastic Quasi-Newton Optimization on Riemannian Manifolds", Submitted, 2017. [http://arxiv.org/abs/1704.01700 arxiv]
 . A. Roychowdhury, B. Kulis and S. Parthasarathy "Robust Monte Carlo Sampling with Riemannian Nos{{&eacute;}}-Poincar{{&eacute;}} Hamiltonian Dynamics", \nIn Proc. 33rd International Conference on Machine Learning (ICML), 2016. [http://jmlr.org/proceedings/papers/v48/roychowdhury16.html link] [icml16.bib bibtex]
 . A. Roychowdhury and B. Kulis, "Gamma Processes, Stick-Breaking and Variational Inference", \nIn Proc. 18th International Conference on Artificial Intelligence and Statistics (AISTATS), 2015. [http://arxiv.org/abs/1410.1068 arxiv] [http://jmlr.org/proceedings/papers/v38/roychowdhury15.html link] [aist15.bib bibtex]
 . A. Roychowdhury, K. Jiang and B. Kulis, "Small-Variance Asymptotics for Hidden Markov Models", \nIn Proc. 26th Advances in Neural Information Processing Systems (NIPS), 2013. [http://papers.nips.cc/paper/4913-small-variance-asymptotics-for-hidden-markov-models link] [http://papers.nips.cc/paper/4913-small-variance-asymptotics-for-hidden-markov-models/bibtex bibtex]

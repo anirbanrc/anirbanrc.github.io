@@ -21,7 +21,7 @@ and real high-dimensional sampling scenarios; we achieve sampling accuracies com
 samplers while being significantly faster.
 ~~~
 
-- *Accelerated Stochastic Quasi-Newton Optimization on Riemann Manifolds*
+- *Accelerated Stochastic Quasi-Newton Optimization on Riemannian Manifolds*
 \nA. Roychowdhury and S. Parthasarathy
 \nIn submission, February 2017. [http://arxiv.org/abs/1704.01700 arxiv preprint]
 ~~~
