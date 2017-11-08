@@ -3,7 +3,7 @@
 
 - *Adaptive Bayesian Sampling with Monte Carlo EM*
 \nA. Roychowdhury and S. Parthasarathy
-\nIn Proc. 30th Advances in Neural Information Processing Systems (NIPS), 2017.
+\nIn Proc. 30th Advances in Neural Information Processing Systems (NIPS), 2017. [http://arxiv.org/abs/1711.02159 arxiv]
 ~~~
 {Abstract}
 We present a novel technique for learning the mass matrices in samplers obtained from discretized\n
